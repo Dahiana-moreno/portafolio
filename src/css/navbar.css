@@ -1,0 +1,28 @@
+
+nav{
+  position: fixed;
+  background-color: #000000;
+  opacity: 85%;
+
+
+}
+
+     nav a {
+      color: #FAF3E1;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+      
+  }
+  nav a:hover {
+    color: #FF6D1F;
+    
+    
+}
+
+  /* Estilo específico para el primer elemento de la barra de navegación */
+  nav a:first-child {
+      font-size: 32px; 
+      padding: 16px 24px; 
+  }
+ 

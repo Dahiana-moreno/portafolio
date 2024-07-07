@@ -1,0 +1,26 @@
+#Home{
+  position: relative;
+  height: calc(100vh - 56px); /* Calcula el tamaño de la sección restando la altura del navbar */
+  background-image: url("../img/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  text-align: center;
+}
+.home{
+  z-index: 2;  
+  position: relative;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Capa semi-transparente */
+  z-index: 1;
+}
