@@ -1,0 +1,46 @@
+.columnImg{
+  width: 45%;
+  }
+  .columnText{
+  width: 55%;
+  margin: 4px;
+  
+  }
+  .contImgProject{
+    max-width: 420px;
+    
+  }
+  .descripProject{
+    text-decoration: underline;
+
+  }
+  a.btn-link{
+    border-radius: 20px;
+    background-color: #F4031B;
+    padding: 4px 30px;
+   margin: 8px auto;
+    cursor: pointer;
+    display: flex;
+    width: 16em;
+    text-decoration: underline;
+  color: #C5BAAA;
+  
+  }
+  a.btn-link:hover{
+    color: #242424;
+
+  }
+  .column3{
+    width: 50%;
+    margin: 12px;
+    
+  }
+  .listaProjects{
+    text-align: justify;
+    border: 1px solid #F4031B;
+padding: 20px
+  }
+  img.got {
+    top: 50px;
+    margin: 50px 0;
+}

@@ -1,13 +1,16 @@
-import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = () => {
 
 return(
   <nav className="navbar">
       <Link to="/"> July.</Link>
-      <Link to="/#Home">HOME</Link>
-      <Link to="/#Seccion2">ABOUT US</Link>
-      <Link to="/#Contact">CONTACT</Link>
+      
+      <Link smooth to="/#about">ABOUT</Link>
+      <Link smooth to="/#skills">SKILLS</Link>
+      <Link smooth to="/#projects">PROJECTS</Link>
+      <Link smooth to="/#contact">CONTACT</Link>
+
  
     </nav>
 )

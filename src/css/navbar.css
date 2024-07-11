@@ -23,6 +23,10 @@ nav{
   /* Estilo específico para el primer elemento de la barra de navegación */
   nav a:first-child {
       font-size: 32px; 
-      padding: 16px 24px; 
+      padding: 16px 294px 16px 24px; 
+    
   }
- 
+ .secciones {
+  width: 60%;
+
+ }

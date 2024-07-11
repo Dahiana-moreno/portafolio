@@ -1,26 +1,191 @@
-#Home{
+.fondo {
   position: relative;
   height: calc(100vh - 56px); /* Calcula el tamaño de la sección restando la altura del navbar */
-  background-image: url("../img/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg");
+  background-image: url("../img/homePrin.jpg");
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
- 
-  text-align: center;
+ display: flex;
 }
-.home{
-  z-index: 2;  
-  position: relative;
+
+
+.fondo::before {
+  position: absolute;
+  inset: 0; /* top 0 bottom 0 rigth 0 left 0*/
+  content: "";
+background-color: rgb(0, 0, 0, 0.6);
 
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+.contenido {
+  color: white;
+  position: relative;
+}
+.social{
+  width: 34px;
+  margin: 16px;
+}
+.cont{
+  margin: 0 auto;
+  width: 280px;
+}
+.columns {
+display: flex;
+width: 100%;
+}
+.skils {
+width: 23%;
+border: 2px solid #C5BAAA;
+padding: 24px ;
+margin: 8px;
+}
+.skillImg {
+  width: 60px;
+  margin: 8px;
+}
+.lista {
+  text-align: justify;
+}
+.title {
+  margin: 48px;
+  color: #C5BAAA;
+}
+.title2{
+  margin: 16px;
+  color: #C5BAAA;
+}
+.column1{
+width: 39%;
+}
+.column2{
+width: 59%;
+}
+.contProjects{
+  display: flex;
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Capa semi-transparente */
-  z-index: 1;
+}
+.projects {
+  
+  width: 100%;
+  margin-top: 29px;
+}
+.image-container {
+  position: relative;
+}
+
+.imgProjects {
+  width: auto;
+  max-height: 280px;
+}
+
+.links-Button {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #C5BAAA;
+  cursor: pointer;
+  padding: 8px 4px;
+}
+
+.text-below {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.fondo2{
+  position: relative;
+  height: calc(30vh); /* Calcula el tamaño de la sección restando la altura del navbar */
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+ display: flex;
+ margin-right: 8px;
+ width: 40%;
+}
+.fondo2::before {
+  position: absolute;
+  inset: 0; /* top 0 bottom 0 rigth 0 left 0*/
+  content: "";
+background-color: rgb(0, 0, 0, 0.6);
+
+}
+.contenido2 {
+  color: #C5BAAA;
+  position: relative;
+  width: 40px;
+  margin-right: 36px;
+  margin-top: 0;
+}
+.espacio{
+  margin: 56px;
+}
+.contact {
+  border: 2px solid #C5BAAA;
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+  margin: 16px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+  text-align: justify;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  border-bottom:  2px solid #C5BAAA;
+  padding: 5px 0;
+  background: none;
+  
+}
+.form-group textarea {
+  resize: none;
+  height: 100px;
+}
+.btn-form{
+  border-radius: 20px;
+  background-color: #F4031B;
+  padding: 4px 30px;
+  margin: 8px;
+  cursor: pointer;
+  display: flex;
+  width: 11em;
+
+}
+a.btn-form{
+  border-radius: 20px;
+  background-color: #F4031B;
+  padding: 4px 30px;
+  margin: 8px;
+  cursor: pointer;
+  display: flex;
+  width: 11em;
+
+}
+a.enlace{
+  text-decoration: underline;
+  color: #C5BAAA;
+
+}
+
+.contEmail{
+  text-align: justify;
+  margin: 20px 80px;
+}
+.slick-list {
+  position: relative;
+  display: flex;
+  overflow: visible !important;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel-indicators {
+  
+  margin-bottom: -16px !important;
 }
