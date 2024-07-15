@@ -73,7 +73,7 @@ const Carrusel = () => {
             <a href="/events" className="links-Button">De que trata?</a>
             </div>
             <div className="column2">
-            <a href="https://eventosbuga-production.up.railway.app/seguridad/vista1.php" className="links-Button">Visitar Sitio</a>
+            <a href="https://capable-reprieve-production.up.railway.app/" className="links-Button">Visitar Sitio</a>
             </div>
           </div>
         </div>

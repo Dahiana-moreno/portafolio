@@ -25,6 +25,8 @@ function App() {
     <Route path='/events' element={<Projectevento />}/>
   </Routes>
  </Router>
+ <footer>©2024 DayCode. Todos los derechos reservados</footer>
+
     </>
   )
 }

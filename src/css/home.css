@@ -31,27 +31,43 @@ background-color: rgb(0, 0, 0, 0.6);
 .columns {
 display: flex;
 width: 100%;
+flex-wrap: wrap;
+
 }
 .skils {
-width: 23%;
-border: 2px solid #C5BAAA;
-padding: 24px ;
-margin: 8px;
+width: 240px;
+
+background-color: #1E1E1E;
+margin: 8px auto;
 }
 .skillImg {
-  width: 60px;
-  margin: 8px;
+  width: 100px;
+  margin: 28px auto;
+}
+.skilsPrinc{
+  display: flex;
 }
 .lista {
   text-align: justify;
 }
 .title {
-  margin: 48px;
-  color: #C5BAAA;
+  margin-top: 48px;
+    color: #C5BAAA;
+    text-align: left;
+}
+.titlePrin {
+  margin-top: 0;
+  text-align: right;
+  color: #F4031B;
 }
 .title2{
-  margin: 16px;
+  padding: 8px;
   color: #C5BAAA;
+  margin: auto 0;
+}
+.titulos{
+  width: 360px;
+  margin: 0 auto;
 }
 .column1{
 width: 39%;
@@ -62,6 +78,10 @@ width: 59%;
 .contProjects{
   display: flex;
   width: 100%;
+}
+.contenedorProjects{
+  width: 70%;
+  margin: 0 auto;
 }
 .projects {
   
@@ -76,6 +96,7 @@ width: 59%;
   width: auto;
   max-height: 280px;
 }
+
 
 .links-Button {
   position: absolute;
@@ -100,7 +121,8 @@ width: 59%;
   align-items: center;
  display: flex;
  margin-right: 8px;
- width: 40%;
+ width: 320px;
+ margin-bottom: 8px;
 }
 .fondo2::before {
   position: absolute;
@@ -117,7 +139,7 @@ background-color: rgb(0, 0, 0, 0.6);
   margin-top: 0;
 }
 .espacio{
-  margin: 56px;
+  margin: 56px 0;
 }
 .contact {
   border: 2px solid #C5BAAA;
@@ -173,10 +195,7 @@ a.enlace{
 
 }
 
-.contEmail{
-  text-align: justify;
-  margin: 20px 80px;
-}
+
 .slick-list {
   position: relative;
   display: flex;
@@ -184,7 +203,20 @@ a.enlace{
   margin: 0;
   padding: 0;
 }
+.infoProjectsuu {
+  align-self: end;
+  position: relative;
+  background-color: #F4031B;
+  border-radius: 10px;
+}
+.columnContact{
+  margin: 20px auto;
+  display: flex;
+}
 
+.pContac{
+  font-weight: bold;
+}
 .carousel-indicators {
   
   margin-bottom: -16px !important;

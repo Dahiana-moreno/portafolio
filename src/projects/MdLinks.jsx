@@ -4,6 +4,8 @@ import '../css/projects.css'
 import mdlinkPrincipal from "../img/mdLinks.jpeg"
 import validateImg from "../img/validate.png"
 import statsImg from "../img/validateStats.png"
+import javascript from "../img/javaScript.png"
+import node from "../img/node.png"
 const ProjectMdLinks = () => {
 
   return (
@@ -12,11 +14,11 @@ const ProjectMdLinks = () => {
         <div className="columnImg">
           <img src={mdlinkPrincipal} alt="" className="contImgProject" />
         </div>
-        <div className="columnText">
+        <div className="columnDescripcion">
           <h4 className="descripProject">Descripcion General:</h4>
           <p>
           Md-links es una herramienta de línea de comando (CLI) desarrollada en JavaScript con Node.js. Esta herramienta permite analizar archivos Markdown para encontrar y validar enlaces, proporcionando información detallada como la URL, el texto anclado y el estado de los enlaces (activo o roto).          </p>
-          
+          </div>
           <div className="columns">
             <div className="column3">
             <h5>Caracteristicas Principales</h5>
@@ -27,12 +29,18 @@ const ProjectMdLinks = () => {
           </ul>
           </div>
           <div className="column3">
-          <h5>Tecnologias Utilizadas</h5>
+          <h5 className='decorationText'>Tecnologias Utilizadas</h5>
           <ul className="listaProjects">
-            <li>Javascript</li>
-            <li>Node.js</li>
+          
             <li>process.env, process.argv</li>
           </ul>
+          <div className="columns">
+            <div className="circleTec"><img src={javascript}alt="" className="skillImg" /></div>
+            <div className="circleTec"><img src={node} alt="" className="skillImg" /></div>
+            
+          </div>
+          <a href="https://www.npmjs.com/package/md-linksjdb" className="btn-link">Visita el sitio </a>
+
           </div>
          
           </div>
@@ -46,9 +54,8 @@ const ProjectMdLinks = () => {
           </div>
          
           <br />
-          <a href="https://www.npmjs.com/package/md-linksjdb" className="btn-link">Visita el sitio </a>
         </div>
-      </div>
+    
     </>
 
   )

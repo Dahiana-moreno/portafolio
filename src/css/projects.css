@@ -1,9 +1,10 @@
 .columnImg{
   width: 45%;
   }
-  .columnText{
-  width: 55%;
+  .columnDescripcion{
+  width: 50%;
   margin: 4px;
+  align-content: center;
   
   }
   .contImgProject{
@@ -31,16 +32,27 @@
 
   }
   .column3{
-    width: 50%;
+    width: 45%;
     margin: 12px;
     
   }
   .listaProjects{
     text-align: justify;
-    border: 1px solid #F4031B;
+    background-color: #242424;
 padding: 20px
+  }
+  .decorationText{
+    text-decoration-line: underline;
+    text-decoration-color: #F4031B;
+
   }
   img.got {
     top: 50px;
     margin: 50px 0;
+}
+.circleTec{
+  border-radius: 2px;
+  background-color: #242424;
+  margin: auto 8px;
+
 }

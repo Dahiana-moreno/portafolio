@@ -36,7 +36,10 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+.carousel-control-next, .carousel-control-prev {
+ 
+  width: 2rem;
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
